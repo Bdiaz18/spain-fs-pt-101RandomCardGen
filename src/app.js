@@ -13,10 +13,21 @@ window.onload = function() {
   const randomSuits = suits[randomSuitsnNumbers(suits)] 
   const randomNumber = cardNumber [randomSuitsnNumbers(cardNumber)] 
 
+
   const card = document.querySelector('#card')
   const suitUp = document.querySelector('#suitUp')
   const cardValue = document.querySelector('#cardValue')
   const suitDown = document.querySelector('#suitDown')
+
+  if (randomSuits == "♦" || randomSuits == "♥") {
+    suitUp.classList.add("red")
+    cardValue.classList.add("red")
+    suitDown.classList.add("red")
+  } else {
+    suitUp.classList.add("black")
+    cardValue.classList.add("black")
+    suitDown.classList.add("black")
+  }
   
   suitUp.innerHTML = randomSuits
   cardValue.innerHTML = randomNumber

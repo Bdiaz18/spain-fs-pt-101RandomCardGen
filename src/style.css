@@ -24,5 +24,10 @@ body{
     width: 100px;
     justify-content: center;
     align-items: center;
-     
+}
+.red {
+color: red;
+}
+.black{
+color: black;
 }
