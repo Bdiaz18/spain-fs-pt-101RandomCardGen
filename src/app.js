@@ -14,10 +14,13 @@ window.onload = function() {
   const randomNumber = cardNumber [randomSuitsnNumbers(cardNumber)] 
 
   const card = document.querySelector('#card')
-  const paloUp = document.querySelector('#paloUp')
+  const suitUp = document.querySelector('#suitUp')
   const cardValue = document.querySelector('#cardValue')
-  const paloDown = document.querySelector('#paloDown')
-
+  const suitDown = document.querySelector('#suitDown')
+  
+  suitUp.innerHTML = randomSuits
+  cardValue.innerHTML = randomNumber
+  suitDown.innerHTML = randomSuits
   console.log(randomSuits, randomNumber)
   
 };

@@ -1,5 +1,28 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
-
 body{
     background: rgb(13, 145, 13);
+}
+
+.mycard {
+    display: flex;
+    justify-self: center;
+    width: 60vh;
+    height: 80vh;
+    margin-top: 20px;
+    
+}
+.suitsUp{
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.cardsValue{
+    justify-content: center;
+}
+.suitsDown{
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+     
 }
