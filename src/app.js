@@ -18,7 +18,8 @@ window.onload = function() {
   const suitUp = document.querySelector('#suitUp')
   const cardValue = document.querySelector('#cardValue')
   const suitDown = document.querySelector('#suitDown')
-
+  
+  
   if (randomSuits == "♦" || randomSuits == "♥") {
     suitUp.classList.add("red")
     cardValue.classList.add("red")
